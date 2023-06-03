@@ -1,5 +1,7 @@
 # Adaptive-Sorting-Algorithm-Visualizer
 
+// some changes are to be done in code (refining it)
+
 ## Quick Sort -
 ![Quick Sort](images/quick_sort.png)
 
