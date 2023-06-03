@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adaptive Sorting Algorithm Visualization</title>
+  <style>
+    body {
+      background-color: rgb(6, 30, 46);  
+      text-align: center;
+      font-family: sans-serif;
+    }
+
+    #array-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      height: 400px;
+    }
+
+    .array-bar {
+      width: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      margin-right: 15px;
+    }
+
+    #sorting-algorithm {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #ffffff;
+      font-size: 1.5rem;
+    }
+
+    #time-taken {
+      margin-top: 10px;
+      color: #d7f6af;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color: #ffffff; font-size: 2rem;">"Sorting Algorithm Visualization"</h1>
+  <div>
+    <label for="array-size" style="color: #ffffff">Array Size:</label>
+    <input type="number" id="array-size" min="5" max="100" step="1" value="20">
+    <button onclick="generateRandomArray()">Generate Array</button>
+    <button onclick="visualizeSorting()">Visualize Sorting</button>
+  </div>
+  <div id="array-container"></div>
+  <div id="sorting-algorithm"></div>
+  <div id="time-taken"></div>
+  <script src="script.js"></script>
+</body>
+</html>
